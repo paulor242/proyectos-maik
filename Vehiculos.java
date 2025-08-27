@@ -44,7 +44,7 @@ class Carro extends Vehiculo {
 
     @Override
     public void acelerar() {
-        System.out.println("🚗 El carro acelera suavemente...");
+        System.out.println("El carro acelera suavemente...");
         setVelocidad(getVelocidad() + 20);
     }
 }
@@ -59,6 +59,8 @@ class Moto extends Vehiculo {
     public void acelerar() {
         System.out.println(" La moto acelera rápidamente...");
         setVelocidad(getVelocidad() + 40);
+        System.out.println(" La moto acelera rápidamente...");
+        setVelocidad(getVelocidad() + 70);
     }
 }
 
