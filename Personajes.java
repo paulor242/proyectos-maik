@@ -95,6 +95,7 @@ public class Personajes {
             P.actuar();
             System.out.println("Habilidad aleatoria: " + P.getHabilidadesAleatoria());
             System.out.println("-------------------");
+            
         }
     }
 }
