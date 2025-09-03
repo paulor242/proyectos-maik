@@ -77,10 +77,10 @@ public class Feria {
     public void aumentarCreatividad(Double incremento) {
         if (puntos >= 0) {
             this.creatividad += puntos;
-            System.out.println(nombre + " ha ganado " + puntos + " puntos de creatividad. Nueva creatividad: " + this.creatividad);
+            System.out.println(nombre + " ha ganado " + puntos + " puntos de creatividad. Nueva creatividad: " +creatividad);
             System.out.println("--------------------------");
         } else {
-            System.out.println("Los puntos deben ser positivos. La cantidad de puntos es " + puntos + ", su creatividad es " + this.creatividad);
+            System.out.println("Los puntos deben ser positivos. La cantidad de puntos es " + puntos + ", su creatividad es " +creatividad);
             System.out.println("--------------------------");
         }
     }
